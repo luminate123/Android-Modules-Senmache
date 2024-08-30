@@ -2,11 +2,9 @@
 
 Se opto por un reame.md para que se pueda copiar y pegar los codigos de manera mas facil
 
-## Características
+## CodLab1
 
-- Característica 1
-- Característica 2
-- Característica 3
+# CodLab1
 
 ## Instalación
 
