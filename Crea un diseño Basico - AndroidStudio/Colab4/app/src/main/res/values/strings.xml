@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Card</string>
+    <string name="name">Sebastian Senmache</string>
+    <string name="job">Android Developer Extraordinaire</string>
+    <string name="number">+51 948218904</string>
+    <string name="alias">@AndroidDev</string>
+    <string name="email">ssenmache8@gmail.com</string>
+
+</resources>
