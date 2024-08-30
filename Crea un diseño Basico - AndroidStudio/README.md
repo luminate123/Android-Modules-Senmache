@@ -1,5 +1,5 @@
 ## CodLab 1 y 2 - Happy Birthday
-Se muestra una tarjeta de feliz cumpleaño
+Se muestra una tarjeta de feliz cumpleaños
 
 ## CodLab 3
 
