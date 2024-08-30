@@ -4,7 +4,7 @@ Se opto por un reame.md para que se pueda copiar y pegar los codigos de manera m
 
 ## CodLab1
 
-# CodLab1
+### CodLab1
 
 ## Instalación
 
