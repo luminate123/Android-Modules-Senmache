@@ -62,15 +62,13 @@ fun main() {
     println("How's the weather today?")
 }
   ```
-## Instalación
-
-Sigue estos pasos para instalar el proyecto localmente:
 
 
-```bash
-# Clonar el repositorio
-git clone https://github.com/tu-usuario/tu-proyecto.git
-```
+## CodLab2 - Crea y usa variables en Kotlin
+
+## CodLab3 - Cómo crear y usar funciones en Kotlin
+
+## CodLab4 - Problemas prácticos: Conceptos básicos de Kotlin
 
 # Entrar al directorio del proyecto
 cd tu-proyecto
