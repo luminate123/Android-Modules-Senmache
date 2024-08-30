@@ -67,7 +67,19 @@ fun main() {
 ## CodLab2 - Crea y usa variables en Kotlin
 
 ## CodLab3 - Cómo crear y usar funciones en Kotlin
+  ```bash
+fun main() {
+    val greeting = birthdayGreeting(age = 15)
+    println(greeting)
+    println(birthdayGreeting("Sebastian",2))
+}
 
+fun birthdayGreeting(name: String = "Rover",age: Int): String {
+    val nameGreeting = "Happy Birthday, $name!"
+    val ageGreeting = "You are now $age yeats old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+  ```
 ## CodLab4 - Problemas prácticos: Conceptos básicos de Kotlin
 ### Ejercicio 1 - Impresión de mensajes
   ```bash
