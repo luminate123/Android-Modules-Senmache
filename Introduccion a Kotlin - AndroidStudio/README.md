@@ -1,6 +1,6 @@
-# Nombre del Proyecto
+# Codigos de los CodLabs de Introduccion a Kotlin
 
-Breve descripción de lo que hace tu proyecto, su propósito y por qué es útil.
+Se opto por un reame.md para que se pueda copiar y pegar los codigos de manera mas facil
 
 ## Características
 
