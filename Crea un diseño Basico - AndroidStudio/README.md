@@ -10,7 +10,7 @@ Se muestra una tarjeta de feliz cumpleaño
   Se muestra un Task-complete
 
 ### Ejercicio 3
-  Se muestra un 4 cuadrados en la pantalla
+  Se muestra un 4 cuadrados en la pantalla con textos y colores diferentes
 
 ## CodLab 4
-  Carta de presentacion
+  Carta de presentacion del estudiante
