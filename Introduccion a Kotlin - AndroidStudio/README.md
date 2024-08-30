@@ -1,6 +1,6 @@
 # Codigos de los CodLabs de Introduccion a Kotlin
 
-Se opto por un reame.md para que se pueda copiar y pegar los codigos de manera mas facil
+Se opto por un README.md para que se pueda copiar y pegar los codigos de manera mas facil
 
 ## CodLab1 - Tu primer programa en kotlin
   ```bash
