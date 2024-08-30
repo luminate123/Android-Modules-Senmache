@@ -90,35 +90,82 @@ fun main() {
 ### Ejercicio 3 - Plantillas de strings
   ```bash
 fun main() {
-    println("How's the weather today?")
+
+    val item = "Google Chromecast"
+    val discountPercentage = 20
+    val offer = "Sale - Up to $discountPercentage% discount on $item! Hurry up!"
+
+    println(offer)
 }
   ```
 }
 ### Ejercicio 4 - Concatenación de strings
   ```bash
 fun main() {
-    println("How's the weather today?")
+    val numberOfAdults = 20
+    val numberOfKids = 30
+    val total = numberOfAdults + numberOfKids
+    println("The total party size is: $total")
 }
   ```
 
 ### Ejercicio 5 - Formato de mensajes
   ```bash
 fun main() {
-    println("How's the weather today?")
+    val baseSalary = 5000
+    val bonusAmount = 1000
+    val totalSalary = "$baseSalary + $bonusAmount"
+    println("Congratulations for your bonus! You will receive a total of $totalSalary (additional bonus).")
 }
   ```
 
 ### Ejercicio 6 - Implementación de operaciones matematicas
   ```bash
 fun main() {
-    println("How's the weather today?")
+    val firstNumber = 20
+    val secondNumber = 4
+    val thirdNumber = 9
+
+    val result = add(firstNumber, secondNumber)
+    val anotherResult = subtract(firstNumber, thirdNumber)
+
+    println("$firstNumber + $secondNumber = $result")
+    println("$firstNumber - $thirdNumber = $anotherResult")
 }
+
+fun add(firstNumber: Int, secondNumber: Int): Int {
+    return firstNumber + secondNumber
+}
+
+fun subtract(firstNumber: Int, secondNumber: Int): Int {
+    return firstNumber - secondNumber
+}	
   ```
 
 ### Ejercicio 7 - Parámetros predeterminados
   ```bash
 fun main() {
-    println("How's the weather today?")
+    val firstUserEmailId = "user_one@gmail.com"
+
+    // The following line of code assumes that you named your parameter as emailId.
+    // If you named it differently, feel free to update the name.
+    println(displayAlertMessage(emailId = firstUserEmailId))
+    println()
+
+    val secondUserOperatingSystem = "Windows"
+    val secondUserEmailId = "user_two@gmail.com"
+
+    println(displayAlertMessage(secondUserOperatingSystem, secondUserEmailId))
+    println()
+
+    val thirdUserOperatingSystem = "Mac OS"
+    val thirdUserEmailId = "user_three@gmail.com"
+
+    println(displayAlertMessage(thirdUserOperatingSystem, thirdUserEmailId))
+    println()
+}
+fun displayAlertMessage(operatingSystem: String = "Unknown OS",emailId: String): String {
+    return "There is a new sign-in request on $operatingSystem for your Google Account $emailId."
 }
   ```
 
