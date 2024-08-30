@@ -65,6 +65,14 @@ fun main() {
 
 
 ## CodLab2 - Crea y usa variables en Kotlin
+  ```bash
+fun main(){
+    val nextMeeting = "Next meeting is"
+    val date = "January 1"
+    val reminder = nextMeeting + date
+    println(reminder)
+}
+  ```
 
 ## CodLab3 - Cómo crear y usar funciones en Kotlin
   ```bash
